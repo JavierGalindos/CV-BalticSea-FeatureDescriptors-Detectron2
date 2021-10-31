@@ -20,19 +20,23 @@ reshape_size = (1024,1024)
 raw_img_path = './Raw images/'
 processed_img_path = './Processed images/'
 
-for file in os.listdir('./Raw images'):
-    full_path_raw = os.path.join(raw_img_path, file)
-    #print(full_path)
-    img = cv2.imread(full_path_raw)
-    # print(img.shape[:2])
-    # print(reshape_size)
-    if img.shape[:2] != reshape_size:
-        img = cv2.resize(img, reshape_size)
-    
-    full_path_processed = os.path.join(processed_img_path, file)
-    status = cv2.imwrite(full_path_processed, img)
-    if not status:
-        raise("Failed writing the image.")
+for folder in os.listdir('./Raw images'):
+    folder_path_raw = os.path.join(raw_img_path, folder)
+    folder_path_processed = os.path.join(processed_img_path, folder)
+    for file in os.listdir(folder_path_raw):
+        full_path_raw = os.path.join(folder_path_raw, file)
+        print(full_path_raw)
+        #print(full_path)
+        img = cv2.imread(full_path_raw)
+        # print(img.shape[:2])
+        # print(reshape_size)
+        if img.shape[:2] != reshape_size:
+            img = cv2.resize(img, reshape_size)
+        
+        full_path_processed = os.path.join(folder_path_processed, file)
+        status = cv2.imwrite(full_path_processed, img)
+        if not status:
+            raise("Failed writing the image.")
     
 
 
