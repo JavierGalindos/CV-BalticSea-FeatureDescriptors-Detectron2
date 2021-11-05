@@ -38,6 +38,3 @@ for folder in os.listdir('./Raw images'):
         if not status:
             raise("Failed writing the image.")
     
-
-
-
