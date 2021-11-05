@@ -17,10 +17,10 @@ import cv2
 
 print(os.getcwd)
 reshape_size = (1024,1024)
-raw_img_path = './Raw images/'
+raw_img_path = './Cropped images/'
 processed_img_path = './Processed images/'
 
-for folder in os.listdir('./Raw images'):
+for folder in os.listdir(raw_img_path):
     folder_path_raw = os.path.join(raw_img_path, folder)
     folder_path_processed = os.path.join(processed_img_path, folder)
     for file in os.listdir(folder_path_raw):
