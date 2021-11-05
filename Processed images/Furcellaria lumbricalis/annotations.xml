@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>144014</id>
+      <name>Fuscellaria</name>
+      <size>44</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-11-05 10:37:13.595703+00:00</created>
+      <updated>2021-11-05 10:55:55.638598+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>43</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>224091</id>
+          <start>0</start>
+          <stop>43</stop>
+          <url>http://cvat.org/?id=224091</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>JavierGalindos</username>
+        <email>javiergalindos@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Fucus</name>
+          <color>#5986b3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Zostera</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fuscellaria</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2021-11-05 11:11:44.032123+00:00</dumped>
+  </meta>
+  <image id="43" name="furcellaria_lumbricalis_9.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="965.99" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="furcellaria_lumbricalis_8.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="166.69" ytl="1.64" xbr="754.48" ybr="663.54" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="furcellaria_lumbricalis_7.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="281.22" ytl="13.43" xbr="801.64" ybr="853.85" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="furcellaria_lumbricalis_6.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="70.69" ytl="53.85" xbr="919.54" ybr="949.85" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="furcellaria_lumbricalis_5.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="70.69" ytl="60.59" xbr="961.64" ybr="884.17" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="furcellaria_lumbricalis_48.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="1024.00" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="furcellaria_lumbricalis_47.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="38.69" ytl="26.91" xbr="1005.43" ybr="892.59" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="furcellaria_lumbricalis_46.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="10.06" ytl="117.85" xbr="518.70" ybr="511.96" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="451.33" ytl="144.80" xbr="971.75" ybr="865.64" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="furcellaria_lumbricalis_44.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="1024.00" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="furcellaria_lumbricalis_43.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="176.80" ytl="57.22" xbr="963.33" ybr="990.27" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="furcellaria_lumbricalis_42.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="1.64" xbr="815.12" ybr="764.59" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="furcellaria_lumbricalis_40.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="25.22" ytl="42.06" xbr="978.48" ybr="1012.17" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="furcellaria_lumbricalis_4.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="50.48" ytl="13.43" xbr="1024.00" ybr="1023.96" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="furcellaria_lumbricalis_39.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="1024.00" ybr="901.01" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="furcellaria_lumbricalis_38.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="185.22" ytl="1.64" xbr="1024.00" ybr="1022.61" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="furcellaria_lumbricalis_37.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="101.01" ytl="60.59" xbr="943.12" ybr="931.33" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="furcellaria_lumbricalis_36.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="45.43" ytl="53.85" xbr="993.64" ybr="981.85" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="furcellaria_lumbricalis_35.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="59.75" ytl="106.23" xbr="874.23" ybr="1005.60" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="furcellaria_lumbricalis_34.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="48.80" ytl="13.43" xbr="890.91" ybr="1020.59" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="furcellaria_lumbricalis_33.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="587.75" ybr="407.54" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="185.22" ytl="165.01" xbr="837.01" ybr="1017.22" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="furcellaria_lumbricalis_32.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="495.12" ytl="70.69" xbr="793.22" ybr="704.00" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="249.22" ytl="223.96" xbr="537.22" ybr="449.64" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="269.43" ytl="451.33" xbr="538.91" ybr="633.22" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="furcellaria_lumbricalis_31.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="134.69" ytl="40.38" xbr="975.12" ybr="1002.06" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="furcellaria_lumbricalis_30.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="1.64" ytl="23.54" xbr="1010.50" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="furcellaria_lumbricalis_3.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="163.33" ytl="244.17" xbr="702.30" ybr="577.64" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="336.80" ytl="444.59" xbr="911.12" ybr="1017.22" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="700.59" ytl="48.80" xbr="1024.00" ybr="697.22" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="furcellaria_lumbricalis_29.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="48.80" ytl="1.64" xbr="1015.54" ybr="1015.54" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="furcellaria_lumbricalis_28.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="372.17" ytl="21.85" xbr="815.12" ybr="853.85" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="furcellaria_lumbricalis_27.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="16.80" ytl="10.06" xbr="1024.00" ybr="1017.22" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="furcellaria_lumbricalis_26.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="1.64" xbr="1024.00" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="furcellaria_lumbricalis_25.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="330.10" ytl="5.00" xbr="739.33" ybr="968.30" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="furcellaria_lumbricalis_24.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="16.80" ytl="1.64" xbr="1024.00" ybr="904.40" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="furcellaria_lumbricalis_23.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="1024.00" ybr="959.96" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="furcellaria_lumbricalis_22.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="213.85" ytl="276.17" xbr="842.06" ybr="769.64" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="furcellaria_lumbricalis_20.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="146.48" ytl="95.96" xbr="863.96" ybr="976.80" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="furcellaria_lumbricalis_2.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="0.00" xbr="1024.00" ybr="1024.00" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="furcellaria_lumbricalis_19.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="139.75" ytl="40.40" xbr="1024.00" ybr="1022.27" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="furcellaria_lumbricalis_18.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="38.69" ytl="0.00" xbr="823.54" ybr="815.12" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="furcellaria_lumbricalis_17.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="3.33" xbr="779.75" ybr="737.64" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="furcellaria_lumbricalis_16.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="67.16" ytl="141.26" xbr="895.79" ybr="1022.11" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="furcellaria_lumbricalis_15.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="0.00" ytl="69.01" xbr="1012.17" ybr="1003.75" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="furcellaria_lumbricalis_14.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="197.01" ytl="0.00" xbr="890.90" ybr="976.80" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="furcellaria_lumbricalis_13.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="202.06" ytl="195.33" xbr="703.96" ybr="929.64" z_order="0">
+    </box>
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="705.64" ytl="213.85" xbr="958.27" ybr="518.69" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="furcellaria_lumbricalis_12.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="92.59" ytl="1.64" xbr="1017.22" ybr="808.38" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="furcellaria_lumbricalis_1.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="99.33" ytl="0.00" xbr="963.33" ybr="862.27" z_order="0">
+    </box>
+  </image>
+  <image id="0" name="furcellaria_lumbricalis_0.jpg" width="1024" height="1024">
+    <box label="Fuscellaria" occluded="0" source="manual" xtl="52.17" ytl="183.54" xbr="1022.27" ybr="906.06" z_order="0">
+    </box>
+  </image>
+</annotations>

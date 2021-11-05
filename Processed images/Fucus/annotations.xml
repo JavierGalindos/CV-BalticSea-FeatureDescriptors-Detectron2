@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>144013</id>
+      <name>Fucus</name>
+      <size>55</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-11-05 10:36:04.064865+00:00</created>
+      <updated>2021-11-05 10:56:13.591977+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>54</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>224090</id>
+          <start>0</start>
+          <stop>54</stop>
+          <url>http://cvat.org/?id=224090</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>JavierGalindos</username>
+        <email>javiergalindos@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Fucus</name>
+          <color>#5986b3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Zostera</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fuscellaria</name>
+          <color>#24b353</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2021-11-05 11:11:54.359714+00:00</dumped>
+  </meta>
+  <image id="54" name="fucus_9.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="49.37" ytl="107.19" xbr="902.43" ybr="998.79" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="fucus_8.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="201.88" ytl="23.39" xbr="956.06" ybr="935.11" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="fucus_7.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="161.66" ytl="204.40" xbr="798.52" ybr="950.19" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="fucus_6.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="149.93" ytl="43.50" xbr="937.62" ybr="990.41" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="fucus_59.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="211.94" ytl="207.75" xbr="952.70" ybr="998.79" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="fucus_58.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="129.82" ytl="83.73" xbr="850.47" ybr="951.86" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="fucus_57.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="265.57" ytl="584.83" xbr="934.27" ybr="1020.58" z_order="0">
+    </box>
+    <box label="Fucus" occluded="0" source="manual" xtl="5.80" ytl="3.28" xbr="1019.74" ybr="516.12" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="fucus_56.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="0.00" ytl="239.59" xbr="1024.00" ybr="899.91" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="fucus_55.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="81.21" ytl="107.19" xbr="964.43" ybr="975.33" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="fucus_54.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="22.56" ytl="26.75" xbr="929.24" ybr="943.49" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="fucus_53.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="235.40" ytl="68.64" xbr="827.01" ybr="945.16" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="fucus_52.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="131.49" ytl="179.26" xbr="1001.31" ybr="832.87" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="fucus_5.png" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="34.29" ytl="8.31" xbr="1011.36" ybr="1007.17" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="fucus_49.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="12.50" ytl="18.37" xbr="979.52" ybr="951.87" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="fucus_48.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="19.20" ytl="9.99" xbr="860.53" ybr="1022.25" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="fucus_47.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="59.43" ytl="40.15" xbr="956.06" ybr="975.33" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="fucus_46.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="74.51" ytl="23.39" xbr="946.00" ybr="796.00" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="fucus_45.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="54.40" ytl="100.49" xbr="996.28" ybr="975.33" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="fucus_44.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="91.27" ytl="115.57" xbr="843.77" ybr="946.84" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="fucus_43.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="22.56" ytl="13.34" xbr="1004.66" ybr="956.89" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="fucus_42.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="159.98" ytl="13.34" xbr="1024.00" ybr="980.36" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="fucus_40.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="5.80" ytl="130.65" xbr="1021.42" ybr="961.92" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="fucus_4.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="47.70" ytl="45.18" xbr="1001.31" ybr="988.74" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="fucus_38.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="67.81" ytl="77.02" xbr="992.93" ybr="983.71" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="fucus_37.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="34.29" ytl="33.45" xbr="1023.09" ybr="1005.50" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="fucus_36.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="5.80" ytl="26.75" xbr="1024.00" ybr="956.89" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="fucus_35.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="20.88" ytl="28.42" xbr="1023.09" ybr="988.74" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="fucus_34.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="19.20" ytl="16.69" xbr="1019.74" ybr="965.27" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="fucus_33.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="49.37" ytl="43.50" xbr="1014.71" ybr="889.86" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="fucus_32.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="128.14" ytl="18.37" xbr="981.19" ybr="1005.50" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="fucus_31.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="44.34" ytl="25.07" xbr="954.38" ybr="985.38" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="fucus_30.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="74.51" ytl="16.69" xbr="984.55" ybr="1010.52" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="fucus_3.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="134.84" ytl="21.72" xbr="951.03" ybr="1015.55" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="fucus_29.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="106.35" ytl="4.96" xbr="883.99" ybr="1018.90" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="fucus_28.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="66.13" ytl="16.69" xbr="1008.01" ybr="913.32" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="fucus_27.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="42.67" ytl="25.07" xbr="1021.42" ybr="1003.82" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="fucus_26.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="45.35" ytl="11.83" xbr="1024.00" ybr="906.78" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="fucus_25.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="40.99" ytl="55.24" xbr="806.90" ybr="1017.23" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="fucus_24.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="5.13" ytl="50.38" xbr="645.34" ybr="1012.37" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="fucus_23.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="86.24" ytl="9.99" xbr="1011.36" ybr="988.74" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="fucus_22.png" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="35.96" ytl="21.72" xbr="1023.09" ybr="945.16" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="fucus_21.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="14.18" ytl="53.56" xbr="1019.74" ybr="863.04" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="fucus_20.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="40.32" ytl="47.02" xbr="1019.07" ybr="1012.37" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="fucus_2.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="92.95" ytl="383.72" xbr="935.94" ybr="898.23" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="fucus_18.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="176.74" ytl="36.80" xbr="1018.06" ybr="993.76" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="fucus_17.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="52.72" ytl="25.07" xbr="1008.01" ybr="963.60" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="fucus_16.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="32.61" ytl="102.16" xbr="1024.00" ybr="936.78" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="fucus_15.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="201.88" ytl="189.31" xbr="946.00" ybr="953.54" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="fucus_14.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="69.48" ytl="139.03" xbr="1024.00" ybr="1013.88" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="fucus_13.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="96.30" ytl="87.08" xbr="1002.98" ybr="993.76" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="fucus_12.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="19.20" ytl="21.72" xbr="1004.66" ybr="982.03" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="fucus_11.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="543.77" ytl="45.18" xbr="862.20" ybr="410.54" z_order="0">
+    </box>
+    <box label="Fucus" occluded="0" source="manual" xtl="9.15" ytl="175.90" xbr="397.97" ybr="744.05" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="fucus_10.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="71.16" ytl="25.07" xbr="996.28" ybr="978.68" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="fucus_1.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="12.50" ytl="6.63" xbr="1024.00" ybr="935.11" z_order="0">
+    </box>
+  </image>
+  <image id="0" name="fucus_0.jpg" width="1024" height="1024">
+    <box label="Fucus" occluded="0" source="manual" xtl="56.07" ytl="18.37" xbr="1008.01" ybr="1012.20" z_order="0">
+    </box>
+  </image>
+</annotations>
