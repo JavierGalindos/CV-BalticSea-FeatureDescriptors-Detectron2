@@ -20,7 +20,7 @@ from mean_average_precision import MetricBuilder
 
 # PICK AN IMAGE 
 
-def fd_detector(method = 'SIFT', lowe_ratio = 0.6, good_match_thresh = 0):
+def fd_detector(method = 'ORB', lowe_ratio = 0.6, good_match_thresh = 0):
     process_img_path = './Processed images/'
     
     #input argument to choose detector
@@ -36,7 +36,7 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.6, good_match_thresh = 0):
 
             grid_class = np.empty(shape = (grid_per_side, grid_per_side), dtype='object')
 
-            classes = ['Fuc', 'Fur', 'Zos']
+            classes = ['Fuc', 'Fur', 'Zos', 'None']
 
             for x_coord in range(0, train_img_bw.shape[0], step):
                 begin_x = x_coord
@@ -241,7 +241,7 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.6, good_match_thresh = 0):
                 # Plot image
                 
                 color_list = [[0,0,255], [0,255,0], [255,0,0], [0,0,0]]
-                color = color_list[(-value-1)]
+                color = color_list[(-this_class-1)]
                 thickness = 2
 
                 outputstr = class_single + ': ' + str(this_conf)
@@ -251,9 +251,8 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.6, good_match_thresh = 0):
 
             pred = np.array(pred) 
             #imS = cv2.resize(image, (960, 540))       
-            cv2.imshow('FD output',image) #resize to fit img
+            cv2.imwrite(os.path.join('./output_fd/', img_path),image)
             #cv2.moveWindow('FD output', 40,30)  # Move it to (40,30)
-            cv2.waitKey(0)
             
             
                                 # Reading the data inside the xml
@@ -302,6 +301,7 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.6, good_match_thresh = 0):
 
             # compute metric COCO metric
             print(f"COCO mAP: {metric_fn.value(iou_thresholds=np.arange(0.5, 1.1, 0.1), recall_thresholds=np.arange(0., 1.01, 0.01), mpolicy='soft')['mAP']}")
-                    
+            
+            print('\n-----------------------------\n')        
 if __name__ == '__main__':
     fd_detector()

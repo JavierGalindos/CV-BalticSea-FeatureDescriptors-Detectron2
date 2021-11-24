@@ -13,8 +13,10 @@ def orb_detector(query_img_bw, img_patch, lowe_ratio):
 
     #matcher = cv2.DescriptorMatcher_create('BruteForce-L1') #BruteForce = L2, BruteForce-L1
     matcher = cv2.BFMatcher(cv2.NORMCONV_FILTER)
-    matches = matcher.knnMatch(queryDescriptors,trainDescriptors, k=2)
-    
+    try:
+        matches = matcher.knnMatch(queryDescriptors,trainDescriptors, k=2)
+    except: 
+        return 0
     # draw the matches to the final image
     # containing both the images the drawMatches()
     # function takes both images and keypoints
@@ -78,7 +80,7 @@ def fill_bounding_boxes(z):
     box_class = []
     box_coords = []
     l = label(z)
-    print(l)
+    # print(l)
     # print(l)
     # print(regionprops(l))
     x_og = z.copy()
@@ -93,6 +95,6 @@ def fill_bounding_boxes(z):
         z[s.slice] = values[ind]
         box_class.append(z[s.slice][0][0]) #homogeneous so just take any value from it
         box_coords.append(s.slice) #save the coords
-        print(s.slice)
-        print(z[s.slice])
+        # print(s.slice)
+        # print(z[s.slice])
     return box_class, box_coords
