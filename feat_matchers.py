@@ -24,7 +24,10 @@ def orb_detector(query_img_bw, img_patch, lowe_ratio):
     # its train image
     # final_img = cv2.drawMatchesKnn(query_img_bw, queryKeypoints,
     # img_patch, trainKeypoints, matches[:50],None)
-    good = [[m] for m, n in matches if m.distance < lowe_ratio*n.distance]
+    try:
+        good = [[m] for m, n in matches if m.distance < lowe_ratio*n.distance]
+    except:
+        return 0
     
     return len(good)
 
@@ -43,9 +46,15 @@ def brief_detector(query_img_bw, img_patch, lowe_ratio):
 
     # BFMatcher with hamming >> L2
     bf = cv2.BFMatcher(cv2.NORM_HAMMING)
-    matches = bf.knnMatch(des1,des2, k=2)
+    try:
+        matches = bf.knnMatch(des1,des2, k=2)
+    except:
+        return 0
     # Apply ratio test
-    good = [[m] for m, n in matches if m.distance < lowe_ratio*n.distance]
+    try:
+        good = [[m] for m, n in matches if m.distance < lowe_ratio*n.distance]
+    except:
+        return 0
     
     return len(good)
 
@@ -64,14 +73,21 @@ def sift_detector(query_img_bw, img_patch, lowe_ratio):
     index_params = dict(algorithm = FLANN_INDEX_KDTREE, trees = 5)
     search_params = dict(checks=50)   # or pass empty dictionary
     flann = cv2.FlannBasedMatcher(index_params,search_params)
-    matches = flann.knnMatch(des1,des2,k=2)
+    
+    try:
+        matches = flann.knnMatch(des1,des2,k=2)
+    except:
+        return 0
     # Need to draw only good matches, so create a mask
 
     good = []
     # ratio test as per Lowe's paper
-    for m,n in (matches):
-        if m.distance <lowe_ratio*n.distance:
-            good.append(m)
+    try:
+        for m,n in (matches):
+            if m.distance <lowe_ratio*n.distance:
+                good.append(m)
+    except:
+        return 0
             
     return len(good)
 
