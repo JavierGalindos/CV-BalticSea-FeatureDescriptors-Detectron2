@@ -26,10 +26,10 @@ def fd_detector(method : str = 'ORB', lowe_ratio : int = 0.6, good_match_thresh 
     overall_coco = []
     
     
-    process_img_path = './fucus_zoster_val/'
+    process_img_path = './Images/Processed images/'
     
     #input argument to choose detector
-    for type_of_class in os.listdir('./fucus_zoster_val/'):
+    for type_of_class in os.listdir('./Images/Processed images/'):
         full_dir_path = os.path.join(process_img_path, type_of_class)
         for img_path in os.listdir(full_dir_path):
             if img_path.endswith('.jpg') or img_path.endswith('.png'):
