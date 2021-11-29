@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage.measure import label, regionprops
 
-def orb_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
+def orb_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : float) -> int:
     orb = cv2.ORB_create()
     queryKeypoints, queryDescriptors = orb.detectAndCompute(query_img_bw,None)
     trainKeypoints, trainDescriptors = orb.detectAndCompute(img_patch,None)

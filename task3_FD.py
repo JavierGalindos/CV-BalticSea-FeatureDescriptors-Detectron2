@@ -20,7 +20,7 @@ from mean_average_precision import MetricBuilder
 
 # PICK AN IMAGE 
 
-def fd_detector(method : str = 'ORB', lowe_ratio : int = 0.6, good_match_thresh : int = 0) -> None:
+def fd_detector(method : str = 'ORB', lowe_ratio : float = 0.6, good_match_thresh : int = 0) -> None:
     
     overall_pascal = []
     overall_coco = []
