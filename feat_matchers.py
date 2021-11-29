@@ -32,7 +32,7 @@ def orb_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : flo
     return len(good)
 
 
-def brief_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
+def brief_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : float) -> int:
     # BRIEF is only a descriptor not finder
     # Initiate FAST detector
     finder = cv2.xfeatures2d.StarDetector_create()
@@ -59,7 +59,7 @@ def brief_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : i
     return len(good)
 
 
-def sift_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
+def sift_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : float) -> int:
     # Initiate SIFT detector
     sift = cv2.SIFT_create()
     # find the keypoints and descriptors with SIFT
