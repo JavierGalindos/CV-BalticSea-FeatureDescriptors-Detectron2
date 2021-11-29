@@ -26,10 +26,10 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.7, good_match_thresh = 0):
     overall_coco = []
     
     
-    process_img_path = './fucus_zoster_val/'
+    process_img_path = 'Images/fucus_zoster_val/'
     
     #input argument to choose detector
-    for type_of_class in os.listdir('./fucus_zoster_val/'):
+    for type_of_class in os.listdir('Images/fucus_zoster_val/'):
         print(type_of_class)
         full_dir_path = os.path.join(process_img_path, type_of_class)
         for img_path in os.listdir(full_dir_path):
@@ -57,9 +57,9 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.7, good_match_thresh = 0):
                         
                         class_for_patch = []
                         #now check this image patch with all the etalons, return the max class (or nothing) per img patch
-                        for folder in os.listdir('./Etalons'):
+                        for folder in os.listdir('Images/Etalons'):
                             #get to a particular class of etalon
-                            etalon_dir_path = os.path.join('./Etalons', folder)
+                            etalon_dir_path = os.path.join('Images/Etalons', folder)
                             
                             max_goodies = 0
                             
