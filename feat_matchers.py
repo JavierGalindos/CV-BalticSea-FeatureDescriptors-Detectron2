@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage.measure import label, regionprops
 
-def orb_detector(query_img_bw, img_patch, lowe_ratio):
+def orb_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
     orb = cv2.ORB_create()
     queryKeypoints, queryDescriptors = orb.detectAndCompute(query_img_bw,None)
     trainKeypoints, trainDescriptors = orb.detectAndCompute(img_patch,None)
@@ -32,7 +32,7 @@ def orb_detector(query_img_bw, img_patch, lowe_ratio):
     return len(good)
 
 
-def brief_detector(query_img_bw, img_patch, lowe_ratio):
+def brief_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
     # BRIEF is only a descriptor not finder
     # Initiate FAST detector
     finder = cv2.xfeatures2d.StarDetector_create()
@@ -59,7 +59,7 @@ def brief_detector(query_img_bw, img_patch, lowe_ratio):
     return len(good)
 
 
-def sift_detector(query_img_bw, img_patch, lowe_ratio):
+def sift_detector(query_img_bw : np.array, img_patch : np.array, lowe_ratio : int) -> int:
     # Initiate SIFT detector
     sift = cv2.SIFT_create()
     # find the keypoints and descriptors with SIFT
@@ -92,7 +92,9 @@ def sift_detector(query_img_bw, img_patch, lowe_ratio):
     return len(good)
 
 
-def fill_bounding_boxes(z):
+
+
+def fill_bounding_boxes(z : np.array) -> tuple[list, list]:
     box_class = []
     box_coords = []
     l = label(z)

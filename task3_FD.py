@@ -20,17 +20,16 @@ from mean_average_precision import MetricBuilder
 
 # PICK AN IMAGE 
 
-def fd_detector(method = 'SIFT', lowe_ratio = 0.7, good_match_thresh = 0):
+def fd_detector(method : str = 'ORB', lowe_ratio : int = 0.6, good_match_thresh : int = 0) -> None:
     
     overall_pascal = []
     overall_coco = []
     
     
-    process_img_path = 'Images/fucus_zoster_val/'
+    process_img_path = './fucus_zoster_val/'
     
     #input argument to choose detector
-    for type_of_class in os.listdir('Images/fucus_zoster_val/'):
-        print(type_of_class)
+    for type_of_class in os.listdir('./fucus_zoster_val/'):
         full_dir_path = os.path.join(process_img_path, type_of_class)
         for img_path in os.listdir(full_dir_path):
             if img_path.endswith('.jpg') or img_path.endswith('.png'):
@@ -57,9 +56,9 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.7, good_match_thresh = 0):
                         
                         class_for_patch = []
                         #now check this image patch with all the etalons, return the max class (or nothing) per img patch
-                        for folder in os.listdir('Images/Etalons'):
+                        for folder in os.listdir('./Etalons'):
                             #get to a particular class of etalon
-                            etalon_dir_path = os.path.join('Images/Etalons', folder)
+                            etalon_dir_path = os.path.join('./Etalons', folder)
                             
                             max_goodies = 0
                             
@@ -258,7 +257,7 @@ def fd_detector(method = 'SIFT', lowe_ratio = 0.7, good_match_thresh = 0):
 
                 pred = np.array(pred) 
                 #imS = cv2.resize(image, (960, 540))       
-                cv2.imwrite(os.path.join('./output_fd/', img_path),image)
+                #cv2.imwrite(os.path.join('./output_fd/', img_path),image)
                 #cv2.moveWindow('FD output', 40,30)  # Move it to (40,30)
                 
                 
