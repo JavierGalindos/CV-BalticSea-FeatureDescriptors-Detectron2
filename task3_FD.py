@@ -264,7 +264,7 @@ def fd_detector(method : str = 'ORB', lowe_ratio : float = 0.6, good_match_thres
                                     # Reading the data inside the xml
                 # file to a variable under the name
                 # data
-                with open('./Images/all_classes_cv/annotations_valid.xml', 'r') as f:
+                with open('./Images/all_classes_cv/annotations.xml', 'r') as f:
                     data = f.read()
                 
                 # Passing the stored data inside
