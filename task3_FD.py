@@ -58,7 +58,7 @@ def fd_detector(method : str = 'ORB', lowe_ratio : float = 0.6, good_match_thres
                         #now check this image patch with all the etalons, return the max class (or nothing) per img patch
                         for folder in os.listdir('./Images/Etalons'):
                             #get to a particular class of etalon
-                            etalon_dir_path = os.path.join('./Etalons', folder)
+                            etalon_dir_path = os.path.join('./Images/Etalons', folder)
                             
                             max_goodies = 0
                             
@@ -264,7 +264,7 @@ def fd_detector(method : str = 'ORB', lowe_ratio : float = 0.6, good_match_thres
                                     # Reading the data inside the xml
                 # file to a variable under the name
                 # data
-                with open('./all_classes_cv/annotations_valid.xml', 'r') as f:
+                with open('./Images/all_classes_cv/annotations_valid.xml', 'r') as f:
                     data = f.read()
                 
                 # Passing the stored data inside
